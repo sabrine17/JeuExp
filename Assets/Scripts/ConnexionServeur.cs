@@ -98,18 +98,14 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (ecranChoixPerso.activeSelf)
+            if (ecranChoixPerso.activeSelf || ecranSalle.activeSelf)
             {
-                PhotonNetwork.LeaveRoom();
+                // PhotonNetwork.LeaveRoom();
+                PhotonNetwork.Disconnect();
+                PhotonNetwork.ConnectUsingSettings();
                 ecranChoixPerso.SetActive(false);
-                ecranSalle.SetActive(true);
-            }
-
-            else if (ecranSalle.activeSelf)
-            {
-                PhotonNetwork.LeaveLobby();
                 ecranSalle.SetActive(false);
-                ecranNom.SetActive(true);
+                ecranNom.SetActive(false);
             }
         }
 

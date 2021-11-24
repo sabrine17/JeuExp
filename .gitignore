@@ -65,3 +65,4 @@ ProjectSettings/QualitySettings.asset
 ProjectSettings/ProjectSettings.asset
 ProjectSettings/EditorBuildSettings.asset
 Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+UserSettings/EditorUserSettings.asset
