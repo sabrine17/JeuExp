@@ -7,10 +7,13 @@ public class MouvementPerso : MonoBehaviour
 
     public float vitesseHorizontale;
     public float vitesseVerticale;
+
+    int jumpCount = 0;
+    public int MaxJumps = 1; // maximum de saut à faire
     // Start is called before the first frame update
     void Start()
     {
-
+        jumpCount = MaxJumps;
     }
 
     // Update is called once per frame
@@ -47,19 +50,25 @@ public class MouvementPerso : MonoBehaviour
         // Mouvement du personnage vers le haut (SAUT) en appuyant sur W ou la flèche pointant vers le haut-- François
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            // Change la vitesse de déplacement pour qu'il Saute -- François
-            vitesseVerticale = 20f;
+            if (jumpCount > 0)
+            {
+                // Change la vitesse de déplacement pour qu'il Saute -- François
+                vitesseVerticale = 20f;
 
-            // Activer l'animation de saut du personnage -- François
-            GetComponent<Animator>().SetBool("saut", true);
+                // Activer l'animation de saut du personnage -- François
+                GetComponent<Animator>().SetBool("saut", true);
+
+                jumpCount -= 1;
+            }
+
         }
 
         // Mouvement du personnage vers le haut (SAUT) en retirant la pression sur W ou la flèche pointant vers le haut-- François
-        else if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
+        /*else if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
         {
             // Désactiver l'animation de saut -- François
             GetComponent<Animator>().SetBool("saut", false);
-        }
+        }*/
 
         // la vitesse du saut en fonction de la vélocité du personnage -- François
         else
@@ -75,11 +84,19 @@ public class MouvementPerso : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("marche", true);
         }
-
         // Desactiver l'animation de marche si la vitesse horizontale est plus petit que 0.1f
         else
         {
             GetComponent<Animator>().SetBool("marche", false);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Sol")
+        {
+            jumpCount = MaxJumps;
+            GetComponent<Animator>().SetBool("saut", false);
         }
     }
 }
