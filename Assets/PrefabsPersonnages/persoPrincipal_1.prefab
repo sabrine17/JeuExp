@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 787191829449698404}
   - component: {fileID: 787191829449698407}
   - component: {fileID: 787191829449698425}
+  - component: {fileID: 3574637341813525819}
   m_Layer: 0
   m_Name: persoPrincipal_1
   m_TagString: Untagged
@@ -77,7 +78,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5197012992743113378, guid: d7d1bd519f73dca448c86cd15be98a22, type: 3}
+  m_Sprite: {fileID: -5197012992743113378, guid: d7d1bd519f73dca448c86cd15be98a22,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -170,3 +172,19 @@ MonoBehaviour:
   vitesseHorizontale: 0
   vitesseVerticale: 0
   MaxJumps: 1
+--- !u!114 &3574637341813525819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787191829449698401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a56cf3417102254ab7d4351a0d206ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pas1: {fileID: 8300000, guid: 4143e3a9273fa144483df6c26f164121, type: 3}
+  pas2: {fileID: 8300000, guid: f39a87cf97e148842ae9448cce0b1f25, type: 3}
+  pas3: {fileID: 8300000, guid: a9d06e0dfb06db24a9ca8a53e322055b, type: 3}
+  delai: 1
