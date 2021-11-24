@@ -58,3 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+UserSettings/EditorUserSettings.asset
+UserSettings/EditorUserSettings.asset
+ProjectSettings/TimelineSettings.asset
+ProjectSettings/QualitySettings.asset
+ProjectSettings/ProjectSettings.asset
+ProjectSettings/EditorBuildSettings.asset
+Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
