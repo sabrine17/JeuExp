@@ -431,7 +431,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 40
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -498,6 +498,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3241,14 +3265,14 @@ TextureImporter:
       persoPrincipal_16: 7977133180426598655
       persoPrincipal_22: -1468875599744134583
       persoPrincipal_12: -992835364229902935
-      persoPrincipal_55: 4945653570720103317
+      persoPrincipal_102: 6466625253968380244
       persoPrincipal_70: -1260859537663130179
       persoPrincipal_11: -1987502877204274746
       persoPrincipal_20: -6567295310785019213
       persoPrincipal_46: 1409351838214975286
+      persoPrincipal_55: 4945653570720103317
       persoPrincipal_30: 8678254206728471138
       persoPrincipal_113: 3633072418558429309
-      persoPrincipal_102: 6466625253968380244
       persoPrincipal_29: -8596309030983308080
       persoPrincipal_117: 5434782975940775595
       persoPrincipal_62: -2970683246420293726
@@ -3284,6 +3308,7 @@ TextureImporter:
       persoPrincipal_17: 8846206415281014421
       persoPrincipal_52: -2286073191874547616
       persoPrincipal_34: -957387449329482401
+      persoPrincipal_127: -8117335530316616427
       persoPrincipal_84: 8409559484529600906
       persoPrincipal_54: -1716453815815644568
       persoPrincipal_118: -4482793409468100225
@@ -3291,7 +3316,6 @@ TextureImporter:
       persoPrincipal_85: 5853358928667113703
       persoPrincipal_9: 767352357243925680
       persoPrincipal_103: 7733023965301155660
-      persoPrincipal_127: -8117335530316616427
       persoPrincipal_38: 256224866721814610
       persoPrincipal_49: 7625875780765453275
       persoPrincipal_108: -3984218002961050983
