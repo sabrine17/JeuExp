@@ -1,0 +1,3346 @@
+fileFormatVersion: 2
+guid: d7d1bd519f73dca448c86cd15be98a22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5597499609389608197
+    second: persoPrincipal_0
+  - first:
+      213: -5197012992743113378
+    second: persoPrincipal_1
+  - first:
+      213: -5977699945003553643
+    second: persoPrincipal_2
+  - first:
+      213: 176039214835296406
+    second: persoPrincipal_3
+  - first:
+      213: 7477504806509180771
+    second: persoPrincipal_4
+  - first:
+      213: -7763373490868131921
+    second: persoPrincipal_5
+  - first:
+      213: 2123444612804638546
+    second: persoPrincipal_6
+  - first:
+      213: 5936715272930423111
+    second: persoPrincipal_7
+  - first:
+      213: 5983420039303749566
+    second: persoPrincipal_8
+  - first:
+      213: 767352357243925680
+    second: persoPrincipal_9
+  - first:
+      213: 1463651490126336713
+    second: persoPrincipal_10
+  - first:
+      213: -1987502877204274746
+    second: persoPrincipal_11
+  - first:
+      213: -992835364229902935
+    second: persoPrincipal_12
+  - first:
+      213: -3107199380230573702
+    second: persoPrincipal_13
+  - first:
+      213: 2530954317858649555
+    second: persoPrincipal_14
+  - first:
+      213: 2728421086042539821
+    second: persoPrincipal_15
+  - first:
+      213: 7977133180426598655
+    second: persoPrincipal_16
+  - first:
+      213: 8846206415281014421
+    second: persoPrincipal_17
+  - first:
+      213: 6960920173152576313
+    second: persoPrincipal_18
+  - first:
+      213: 2156816119558122098
+    second: persoPrincipal_19
+  - first:
+      213: -6567295310785019213
+    second: persoPrincipal_20
+  - first:
+      213: 7240569984755460475
+    second: persoPrincipal_21
+  - first:
+      213: -1468875599744134583
+    second: persoPrincipal_22
+  - first:
+      213: -2615873380978582841
+    second: persoPrincipal_23
+  - first:
+      213: 2398131864611462817
+    second: persoPrincipal_24
+  - first:
+      213: -5936142574230635809
+    second: persoPrincipal_25
+  - first:
+      213: -4397259204015413066
+    second: persoPrincipal_26
+  - first:
+      213: -483466522506567317
+    second: persoPrincipal_27
+  - first:
+      213: -5754119932854456720
+    second: persoPrincipal_28
+  - first:
+      213: -8596309030983308080
+    second: persoPrincipal_29
+  - first:
+      213: 8678254206728471138
+    second: persoPrincipal_30
+  - first:
+      213: -3237662718659816792
+    second: persoPrincipal_31
+  - first:
+      213: 186779722694586605
+    second: persoPrincipal_32
+  - first:
+      213: -1103436725587246903
+    second: persoPrincipal_33
+  - first:
+      213: -957387449329482401
+    second: persoPrincipal_34
+  - first:
+      213: 9022969939364040228
+    second: persoPrincipal_35
+  - first:
+      213: -3513178341847032634
+    second: persoPrincipal_36
+  - first:
+      213: 8192966636474351434
+    second: persoPrincipal_37
+  - first:
+      213: 256224866721814610
+    second: persoPrincipal_38
+  - first:
+      213: 3294988160064588986
+    second: persoPrincipal_39
+  - first:
+      213: 8863022735743352972
+    second: persoPrincipal_40
+  - first:
+      213: -4313546217921995828
+    second: persoPrincipal_41
+  - first:
+      213: -6104704357845480117
+    second: persoPrincipal_42
+  - first:
+      213: -481728466679099202
+    second: persoPrincipal_43
+  - first:
+      213: 1444946481245606318
+    second: persoPrincipal_44
+  - first:
+      213: -7124284024551450865
+    second: persoPrincipal_45
+  - first:
+      213: 1409351838214975286
+    second: persoPrincipal_46
+  - first:
+      213: 3343665599823881997
+    second: persoPrincipal_47
+  - first:
+      213: -4808562804851445019
+    second: persoPrincipal_48
+  - first:
+      213: 7625875780765453275
+    second: persoPrincipal_49
+  - first:
+      213: -598199819614192175
+    second: persoPrincipal_50
+  - first:
+      213: -3402923896573117380
+    second: persoPrincipal_51
+  - first:
+      213: -2286073191874547616
+    second: persoPrincipal_52
+  - first:
+      213: 574624082183940948
+    second: persoPrincipal_53
+  - first:
+      213: -1716453815815644568
+    second: persoPrincipal_54
+  - first:
+      213: 4945653570720103317
+    second: persoPrincipal_55
+  - first:
+      213: -4104111567926962355
+    second: persoPrincipal_56
+  - first:
+      213: 8837471858280774685
+    second: persoPrincipal_57
+  - first:
+      213: 6945830696279162577
+    second: persoPrincipal_58
+  - first:
+      213: 8051260008661764237
+    second: persoPrincipal_59
+  - first:
+      213: 5272611504785333756
+    second: persoPrincipal_60
+  - first:
+      213: 6638936593620686475
+    second: persoPrincipal_61
+  - first:
+      213: -2970683246420293726
+    second: persoPrincipal_62
+  - first:
+      213: 3895032734125709251
+    second: persoPrincipal_63
+  - first:
+      213: 5421287254255593006
+    second: persoPrincipal_64
+  - first:
+      213: 5866843245751225976
+    second: persoPrincipal_65
+  - first:
+      213: -5547534911379295602
+    second: persoPrincipal_66
+  - first:
+      213: 2717195514532758540
+    second: persoPrincipal_67
+  - first:
+      213: -1012882596541060545
+    second: persoPrincipal_68
+  - first:
+      213: 2967623653915110887
+    second: persoPrincipal_69
+  - first:
+      213: -1260859537663130179
+    second: persoPrincipal_70
+  - first:
+      213: 5033373604907369405
+    second: persoPrincipal_71
+  - first:
+      213: 604110981405015815
+    second: persoPrincipal_72
+  - first:
+      213: -361766055764479136
+    second: persoPrincipal_73
+  - first:
+      213: 2243220251237369879
+    second: persoPrincipal_74
+  - first:
+      213: -8733093922389700837
+    second: persoPrincipal_75
+  - first:
+      213: -2148367989257438529
+    second: persoPrincipal_76
+  - first:
+      213: -5790776499399398912
+    second: persoPrincipal_77
+  - first:
+      213: 1923641587335268065
+    second: persoPrincipal_78
+  - first:
+      213: -4172057252269477235
+    second: persoPrincipal_79
+  - first:
+      213: -6385591563056068868
+    second: persoPrincipal_80
+  - first:
+      213: -7871178357270794478
+    second: persoPrincipal_81
+  - first:
+      213: 7083009178144229251
+    second: persoPrincipal_82
+  - first:
+      213: 1676912722863557580
+    second: persoPrincipal_83
+  - first:
+      213: 8409559484529600906
+    second: persoPrincipal_84
+  - first:
+      213: 5853358928667113703
+    second: persoPrincipal_85
+  - first:
+      213: 5530957257105741637
+    second: persoPrincipal_86
+  - first:
+      213: -4689794121503313609
+    second: persoPrincipal_87
+  - first:
+      213: -2664985272928504108
+    second: persoPrincipal_88
+  - first:
+      213: 5897317022466375180
+    second: persoPrincipal_89
+  - first:
+      213: -7619245859744736637
+    second: persoPrincipal_90
+  - first:
+      213: -7804290659181753635
+    second: persoPrincipal_91
+  - first:
+      213: 2512541339747366621
+    second: persoPrincipal_92
+  - first:
+      213: -1953289970926863814
+    second: persoPrincipal_93
+  - first:
+      213: -3367449906599739144
+    second: persoPrincipal_94
+  - first:
+      213: 5957032372523580194
+    second: persoPrincipal_95
+  - first:
+      213: 1651208749795962915
+    second: persoPrincipal_96
+  - first:
+      213: -599726853461685805
+    second: persoPrincipal_97
+  - first:
+      213: -5173710094627897832
+    second: persoPrincipal_98
+  - first:
+      213: -8301202973374912039
+    second: persoPrincipal_99
+  - first:
+      213: -4473573450069246217
+    second: persoPrincipal_100
+  - first:
+      213: 1113749395090300739
+    second: persoPrincipal_101
+  - first:
+      213: 6466625253968380244
+    second: persoPrincipal_102
+  - first:
+      213: 7733023965301155660
+    second: persoPrincipal_103
+  - first:
+      213: -680199016528757433
+    second: persoPrincipal_104
+  - first:
+      213: 2866929917075611433
+    second: persoPrincipal_105
+  - first:
+      213: 1445728066087952021
+    second: persoPrincipal_106
+  - first:
+      213: 2815073088686661968
+    second: persoPrincipal_107
+  - first:
+      213: -3984218002961050983
+    second: persoPrincipal_108
+  - first:
+      213: -7465759347776242238
+    second: persoPrincipal_109
+  - first:
+      213: 4605236170098558856
+    second: persoPrincipal_110
+  - first:
+      213: 6625892579393458277
+    second: persoPrincipal_111
+  - first:
+      213: -287364126275330360
+    second: persoPrincipal_112
+  - first:
+      213: 3633072418558429309
+    second: persoPrincipal_113
+  - first:
+      213: 6177921041622456823
+    second: persoPrincipal_114
+  - first:
+      213: -6308315513175390763
+    second: persoPrincipal_115
+  - first:
+      213: -4658660561677906398
+    second: persoPrincipal_116
+  - first:
+      213: 5434782975940775595
+    second: persoPrincipal_117
+  - first:
+      213: -4482793409468100225
+    second: persoPrincipal_118
+  - first:
+      213: 6609639814956398523
+    second: persoPrincipal_119
+  - first:
+      213: 4213546913140504191
+    second: persoPrincipal_120
+  - first:
+      213: -7324426656960243559
+    second: persoPrincipal_121
+  - first:
+      213: -8283799064716187914
+    second: persoPrincipal_122
+  - first:
+      213: -7570418511776652980
+    second: persoPrincipal_123
+  - first:
+      213: -8274455332318790302
+    second: persoPrincipal_124
+  - first:
+      213: 250984084221321928
+    second: persoPrincipal_125
+  - first:
+      213: -5372736145429614944
+    second: persoPrincipal_126
+  - first:
+      213: -8117335530316616427
+    second: persoPrincipal_127
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: persoPrincipal_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 950
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2d1f713cfa152b0800000000000000
+      internalID: -5597499609389608197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 950
+        width: 59
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5df472d73080e7b0800000000000000
+      internalID: -5197012992743113378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 950
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ce03c3291fa0da0800000000000000
+      internalID: -5977699945003553643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_3
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 950
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698ebc2bbba617200800000000000000
+      internalID: 176039214835296406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 950
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3677146010f65c760800000000000000
+      internalID: 7477504806509180771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_5
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 950
+        width: 58
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7ee1231f4f24490800000000000000
+      internalID: -7763373490868131921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 950
+        width: 59
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257ff66ff9df77d10800000000000000
+      internalID: 2123444612804638546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_7
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 950
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74177af2613736250800000000000000
+      internalID: 5936715272930423111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_8
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 950
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf57a003d0690350800000000000000
+      internalID: 5983420039303749566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 950
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4351f37ee26aa00800000000000000
+      internalID: 767352357243925680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 870
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c293f7864fef4410800000000000000
+      internalID: 1463651490126336713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 870
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c12c26d9a8fa64e0800000000000000
+      internalID: -1987502877204274746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 870
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad81aa1f7db832f0800000000000000
+      internalID: -992835364229902935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 870
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71fa0750a201e4d0800000000000000
+      internalID: -3107199380230573702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_14
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 870
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5b4b2ea81cf1320800000000000000
+      internalID: 2530954317858649555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_15
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 870
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27404f958c4dd520800000000000000
+      internalID: 2728421086042539821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_16
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 870
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff83f49ec5874be60800000000000000
+      internalID: 7977133180426598655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_17
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 870
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5964b909dd904ca70800000000000000
+      internalID: 8846206415281014421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_18
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 870
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9332c9654082a9060800000000000000
+      internalID: 6960920173152576313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_19
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 870
+        width: 63
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a291c55dc8eed10800000000000000
+      internalID: 2156816119558122098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_20
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 870
+        width: 66
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b20299b5b74cd4a0800000000000000
+      internalID: -6567295310785019213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_21
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 870
+        width: 67
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7964b8f90cab7460800000000000000
+      internalID: 7240569984755460475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 790
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942130aac618d9be0800000000000000
+      internalID: -1468875599744134583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_23
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 790
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca1f5df40d82bbd0800000000000000
+      internalID: -2615873380978582841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_24
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 798
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae16ba9930e74120800000000000000
+      internalID: 2398131864611462817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_25
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 798
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaf8ee97c59e9da0800000000000000
+      internalID: -5936142574230635809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_26
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 790
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b828573d0cc9f2c0800000000000000
+      internalID: -4397259204015413066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_27
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 790
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61e33162c16a49f0800000000000000
+      internalID: -483466522506567317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_28
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 791
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e273f58624520b0800000000000000
+      internalID: -5754119932854456720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_29
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 790
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dce1c44b76c3b880800000000000000
+      internalID: -8596309030983308080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_30
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 790
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262079eb83a5f6870800000000000000
+      internalID: 8678254206728471138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_31
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 787
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a291c749e28113d0800000000000000
+      internalID: -3237662718659816792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_32
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 790
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0f47e0b23979200800000000000000
+      internalID: 186779722694586605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_33
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 711
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c08043f42ecfa0f0800000000000000
+      internalID: -1103436725587246903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_34
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 711
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f558c42ff2da6b2f0800000000000000
+      internalID: -957387449329482401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_35
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 710
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e42d6aa57083d70800000000000000
+      internalID: 9022969939364040228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_36
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 710
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc9c9569eeae3fc0800000000000000
+      internalID: -3513178341847032634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_37
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 710
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f3ea76fb343b170800000000000000
+      internalID: 8192966636474351434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_38
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 710
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2585393a82b4e8300800000000000000
+      internalID: 256224866721814610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_39
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 710
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc84c326462abd20800000000000000
+      internalID: 3294988160064588986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_40
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 710
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8081384838cffa70800000000000000
+      internalID: 8863022735743352972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_41
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 702
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb9786a1943324c0800000000000000
+      internalID: -4313546217921995828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_42
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 704
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d47db0bbbb74ba0800000000000000
+      internalID: -6104704357845480117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_43
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 707
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb01669038e8059f0800000000000000
+      internalID: -481728466679099202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_44
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 711
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea158164b2b7d0410800000000000000
+      internalID: 1444946481245606318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 630
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07de9dfc65712d90800000000000000
+      internalID: -7124284024551450865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_46
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 630
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fe850a7060f8310800000000000000
+      internalID: 1409351838214975286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_47
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 629
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d072235c526176e20800000000000000
+      internalID: 3343665599823881997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_48
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 629
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e27ca81b9d844db0800000000000000
+      internalID: -4808562804851445019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_49
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 630
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb87c57e9d84d960800000000000000
+      internalID: 7625875780765453275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_50
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 630
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd7137fe64c2b7f0800000000000000
+      internalID: -598199819614192175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_51
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 630
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c321bdeb266c0d0800000000000000
+      internalID: -3402923896573117380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_52
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 630
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06036cb4b8c3640e0800000000000000
+      internalID: -2286073191874547616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_53
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 630
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b65f9ee8979f700800000000000000
+      internalID: 574624082183940948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_54
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 630
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ad1f2495eed28e0800000000000000
+      internalID: -1716453815815644568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_55
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 630
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bf9e828bd72a440800000000000000
+      internalID: 4945653570720103317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_56
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 551
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47542306444b07c0800000000000000
+      internalID: -4104111567926962355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_57
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 550
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c365905d105aa70800000000000000
+      internalID: 8837471858280774685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_58
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 550
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de39b9b73c846060800000000000000
+      internalID: 6945830696279162577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_59
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 551
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88c79a0252dbbf60800000000000000
+      internalID: 8051260008661764237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_60
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 550
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd1e556a341c2940800000000000000
+      internalID: 5272611504785333756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_61
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 550
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b865a1548ad322c50800000000000000
+      internalID: 6638936593620686475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_62
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 551
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a70ae4a35306c6d0800000000000000
+      internalID: -2970683246420293726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_63
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 550
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7d41a82afed0630800000000000000
+      internalID: 3895032734125709251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_64
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 550
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26e147d8084c3b40800000000000000
+      internalID: 5421287254255593006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_65
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 549
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ec6ef19d63b6150800000000000000
+      internalID: 5866843245751225976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_66
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 549
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82b824e3623303b0800000000000000
+      internalID: -5547534911379295602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_67
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 550
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0482059cea65b520800000000000000
+      internalID: 2717195514532758540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_68
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 470
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aaef915a481f1f0800000000000000
+      internalID: -1012882596541060545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_69
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 469
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed28a67dfd1f2920800000000000000
+      internalID: 2967623653915110887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_70
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 469
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db50de94ee6808ee0800000000000000
+      internalID: -1260859537663130179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_71
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 470
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3c45e20a22ad540800000000000000
+      internalID: 5033373604907369405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_72
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 469
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ffe83acbb326800800000000000000
+      internalID: 604110981405015815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_73
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 469
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0633d5260bfbafaf0800000000000000
+      internalID: -361766055764479136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_74
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 467
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71847f3fee4812f10800000000000000
+      internalID: 2243220251237369879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_75
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 468
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fc6d5f851ddc680800000000000000
+      internalID: -8733093922389700837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_76
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 468
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba7d7142b67f22e0800000000000000
+      internalID: -2148367989257438529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_77
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 468
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a6e93647703afa0800000000000000
+      internalID: -5790776499399398912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_78
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 468
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e68940f4d522ba10800000000000000
+      internalID: 1923641587335268065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_79
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 468
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82b2e79800e916c0800000000000000
+      internalID: -4172057252269477235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_80
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 395
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6cf434e42d167a0800000000000000
+      internalID: -6385591563056068868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_81
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 394
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fa123ccf4f3c290800000000000000
+      internalID: -7871178357270794478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_82
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 390
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3874e14f157eb4260800000000000000
+      internalID: 7083009178144229251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_83
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 390
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb8d9d9c37954710800000000000000
+      internalID: 1676912722863557580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_84
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 394
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8967e0abc1c4b470800000000000000
+      internalID: 8409559484529600906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_85
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 395
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e87016eeee4b3150800000000000000
+      internalID: 5853358928667113703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_86
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 394
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54718a13258e1cc40800000000000000
+      internalID: 5530957257105741637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_87
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 390
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731741618118aeeb0800000000000000
+      internalID: -4689794121503313609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_88
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 390
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6f2739302140bd0800000000000000
+      internalID: -2664985272928504108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_89
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 394
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ef8fb269a77d150800000000000000
+      internalID: 5897317022466375180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_90
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 310
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a9c815240034690800000000000000
+      internalID: -7619245859744736637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_91
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 310
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda829f8ef691b390800000000000000
+      internalID: -7804290659181753635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_92
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 310
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6302759075ed220800000000000000
+      internalID: 2512541339747366621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_93
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 310
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a3293de1584e4e0800000000000000
+      internalID: -1953289970926863814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_94
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 310
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f04336c62a6441d0800000000000000
+      internalID: -3367449906599739144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_95
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 310
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b35cf8161aba250800000000000000
+      internalID: 5957032372523580194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_96
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 310
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320fa950c954ae610800000000000000
+      internalID: 1651208749795962915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_97
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 310
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d94721ba975da7f0800000000000000
+      internalID: -599726853461685805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_98
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 228
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ef9d6941a4338b0800000000000000
+      internalID: -5173710094627897832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_99
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 226
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9629b90e33ccc80800000000000000
+      internalID: -8301202973374912039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_100
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 227
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fef00036acaae1c0800000000000000
+      internalID: -4473573450069246217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_101
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 226
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd9278c25d47f00800000000000000
+      internalID: 1113749395090300739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_102
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 226
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4510b5628611eb950800000000000000
+      internalID: 6466625253968380244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_103
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 227
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47ab5b3358315b60800000000000000
+      internalID: 7733023965301155660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_104
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 225
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dbb3b29927f86f0800000000000000
+      internalID: -680199016528757433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_105
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 225
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f5b37e19169c720800000000000000
+      internalID: 2866929917075611433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_106
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 226
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e1cfc2402401410800000000000000
+      internalID: 1445728066087952021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_107
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 227
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0512eeb2f06211720800000000000000
+      internalID: 2815073088686661968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_108
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 225
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9925ac9e5d635b8c0800000000000000
+      internalID: -3984218002961050983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_109
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 225
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdbe31bd6b446890800000000000000
+      internalID: -7465759347776242238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_110
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 146
+        width: 61
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8874189a5e519ef30800000000000000
+      internalID: 4605236170098558856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_111
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 145
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560d4aa0236e3fb50800000000000000
+      internalID: 6625892579393458277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_112
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 143
+        width: 60
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce1b2489d3130cf0800000000000000
+      internalID: -287364126275330360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_113
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 145
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78c177ad144b6230800000000000000
+      internalID: 3633072418558429309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_114
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 145
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9515094726cb550800000000000000
+      internalID: 6177921041622456823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_115
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 145
+        width: 61
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d54812b67c5478a0800000000000000
+      internalID: -6308315513175390763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_116
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 143
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e011cd6ec195fb0800000000000000
+      internalID: -4658660561677906398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_117
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 141
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae4a48625a3c6b40800000000000000
+      internalID: 5434782975940775595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_118
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 143
+        width: 76
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71113b152be9c1c0800000000000000
+      internalID: -4482793409468100225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_119
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 143
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb731cf64682abb50800000000000000
+      internalID: 6609639814956398523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_120
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 86
+        width: 124
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76fe2ad796897a30800000000000000
+      internalID: 4213546913140504191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_121
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 76
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9989b7013c86a5a90800000000000000
+      internalID: -7324426656960243559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_122
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 79
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6e0ecd3a80a0d80800000000000000
+      internalID: -8283799064716187914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_123
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 74
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41e28c297870f690800000000000000
+      internalID: -7570418511776652980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_124
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 71
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d3d4717ba3b2d80800000000000000
+      internalID: -8274455332318790302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_125
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 70
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2e940e1bcab7300800000000000000
+      internalID: 250984084221321928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_126
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 76
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae24c311f43075b0800000000000000
+      internalID: -5372736145429614944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persoPrincipal_127
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 67
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d22d8b75e695f80800000000000000
+      internalID: -8117335530316616427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c61271de0431be440b60e2fbadd2339f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      persoPrincipal_91: -7804290659181753635
+      persoPrincipal_43: -481728466679099202
+      persoPrincipal_83: 1676912722863557580
+      persoPrincipal_73: -361766055764479136
+      persoPrincipal_98: -5173710094627897832
+      persoPrincipal_61: 6638936593620686475
+      persoPrincipal_2: -5977699945003553643
+      persoPrincipal_37: 8192966636474351434
+      persoPrincipal_80: -6385591563056068868
+      persoPrincipal_3: 176039214835296406
+      persoPrincipal_122: -8283799064716187914
+      persoPrincipal_109: -7465759347776242238
+      persoPrincipal_67: 2717195514532758540
+      persoPrincipal_25: -5936142574230635809
+      persoPrincipal_81: -7871178357270794478
+      persoPrincipal_82: 7083009178144229251
+      persoPrincipal_60: 5272611504785333756
+      persoPrincipal_116: -4658660561677906398
+      persoPrincipal_123: -7570418511776652980
+      persoPrincipal_41: -4313546217921995828
+      persoPrincipal_58: 6945830696279162577
+      persoPrincipal_95: 5957032372523580194
+      persoPrincipal_120: 4213546913140504191
+      persoPrincipal_63: 3895032734125709251
+      persoPrincipal_90: -7619245859744736637
+      persoPrincipal_87: -4689794121503313609
+      persoPrincipal_99: -8301202973374912039
+      persoPrincipal_125: 250984084221321928
+      persoPrincipal_16: 7977133180426598655
+      persoPrincipal_22: -1468875599744134583
+      persoPrincipal_12: -992835364229902935
+      persoPrincipal_55: 4945653570720103317
+      persoPrincipal_70: -1260859537663130179
+      persoPrincipal_11: -1987502877204274746
+      persoPrincipal_20: -6567295310785019213
+      persoPrincipal_46: 1409351838214975286
+      persoPrincipal_30: 8678254206728471138
+      persoPrincipal_113: 3633072418558429309
+      persoPrincipal_102: 6466625253968380244
+      persoPrincipal_29: -8596309030983308080
+      persoPrincipal_117: 5434782975940775595
+      persoPrincipal_62: -2970683246420293726
+      persoPrincipal_7: 5936715272930423111
+      persoPrincipal_10: 1463651490126336713
+      persoPrincipal_89: 5897317022466375180
+      persoPrincipal_126: -5372736145429614944
+      persoPrincipal_93: -1953289970926863814
+      persoPrincipal_100: -4473573450069246217
+      persoPrincipal_101: 1113749395090300739
+      persoPrincipal_121: -7324426656960243559
+      persoPrincipal_27: -483466522506567317
+      persoPrincipal_66: -5547534911379295602
+      persoPrincipal_107: 2815073088686661968
+      persoPrincipal_72: 604110981405015815
+      persoPrincipal_0: -5597499609389608197
+      persoPrincipal_112: -287364126275330360
+      persoPrincipal_18: 6960920173152576313
+      persoPrincipal_33: -1103436725587246903
+      persoPrincipal_57: 8837471858280774685
+      persoPrincipal_39: 3294988160064588986
+      persoPrincipal_68: -1012882596541060545
+      persoPrincipal_106: 1445728066087952021
+      persoPrincipal_96: 1651208749795962915
+      persoPrincipal_74: 2243220251237369879
+      persoPrincipal_76: -2148367989257438529
+      persoPrincipal_88: -2664985272928504108
+      persoPrincipal_1: -5197012992743113378
+      persoPrincipal_45: -7124284024551450865
+      persoPrincipal_79: -4172057252269477235
+      persoPrincipal_97: -599726853461685805
+      persoPrincipal_111: 6625892579393458277
+      persoPrincipal_17: 8846206415281014421
+      persoPrincipal_52: -2286073191874547616
+      persoPrincipal_34: -957387449329482401
+      persoPrincipal_84: 8409559484529600906
+      persoPrincipal_54: -1716453815815644568
+      persoPrincipal_118: -4482793409468100225
+      persoPrincipal_5: -7763373490868131921
+      persoPrincipal_85: 5853358928667113703
+      persoPrincipal_9: 767352357243925680
+      persoPrincipal_103: 7733023965301155660
+      persoPrincipal_127: -8117335530316616427
+      persoPrincipal_38: 256224866721814610
+      persoPrincipal_49: 7625875780765453275
+      persoPrincipal_108: -3984218002961050983
+      persoPrincipal_94: -3367449906599739144
+      persoPrincipal_28: -5754119932854456720
+      persoPrincipal_114: 6177921041622456823
+      persoPrincipal_124: -8274455332318790302
+      persoPrincipal_35: 9022969939364040228
+      persoPrincipal_36: -3513178341847032634
+      persoPrincipal_69: 2967623653915110887
+      persoPrincipal_13: -3107199380230573702
+      persoPrincipal_8: 5983420039303749566
+      persoPrincipal_77: -5790776499399398912
+      persoPrincipal_56: -4104111567926962355
+      persoPrincipal_115: -6308315513175390763
+      persoPrincipal_6: 2123444612804638546
+      persoPrincipal_23: -2615873380978582841
+      persoPrincipal_24: 2398131864611462817
+      persoPrincipal_75: -8733093922389700837
+      persoPrincipal_14: 2530954317858649555
+      persoPrincipal_78: 1923641587335268065
+      persoPrincipal_15: 2728421086042539821
+      persoPrincipal_119: 6609639814956398523
+      persoPrincipal_86: 5530957257105741637
+      persoPrincipal_32: 186779722694586605
+      persoPrincipal_105: 2866929917075611433
+      persoPrincipal_53: 574624082183940948
+      persoPrincipal_51: -3402923896573117380
+      persoPrincipal_40: 8863022735743352972
+      persoPrincipal_48: -4808562804851445019
+      persoPrincipal_26: -4397259204015413066
+      persoPrincipal_21: 7240569984755460475
+      persoPrincipal_104: -680199016528757433
+      persoPrincipal_31: -3237662718659816792
+      persoPrincipal_44: 1444946481245606318
+      persoPrincipal_47: 3343665599823881997
+      persoPrincipal_59: 8051260008661764237
+      persoPrincipal_71: 5033373604907369405
+      persoPrincipal_19: 2156816119558122098
+      persoPrincipal_65: 5866843245751225976
+      persoPrincipal_4: 7477504806509180771
+      persoPrincipal_110: 4605236170098558856
+      persoPrincipal_92: 2512541339747366621
+      persoPrincipal_50: -598199819614192175
+      persoPrincipal_64: 5421287254255593006
+      persoPrincipal_42: -6104704357845480117
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
