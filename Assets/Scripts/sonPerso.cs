@@ -34,12 +34,21 @@ public class sonPerso : MonoBehaviour
                 peutjouerPas = false;
             }
         }
+
+        else
+        {
+            StopCoroutine("pasJoueAudio");
+        }
+
+        if (joueur.GetComponent<Rigidbody2D>().velocity.y != 0)
+        {
+            StopCoroutine("pasJoueAudio");
+        }
     }
     IEnumerator pasJoueAudio()
     {
-      
-
-        int nombre = Random.Range(1, 3);
+    
+        int nombre = Random.Range(1, 4);
 
         if (nombre == 1)
         {
@@ -62,6 +71,13 @@ public class sonPerso : MonoBehaviour
             JoueAudio(pasAJouer);
         }
 
+        else if (nombre == 4)
+        {
+            AudioClip pasAJouer = pas3;
+
+            JoueAudio(pasAJouer);
+        }
+
         yield return new WaitForSeconds(delai);
 
         StartCoroutine("pasJoueAudio");
@@ -69,7 +85,9 @@ public class sonPerso : MonoBehaviour
 
     void JoueAudio(AudioClip audioAJouer)
     {
-       //audioJoueur.clip = audioAJouer;
+        //audioJoueur.clip = audioAJouer;
+        audioJoueur.pitch = (Random.Range(0.7f, 1.3f));
+        audioJoueur.volume = (Random.Range(0.5f, 1f));
         audioJoueur.PlayOneShot(audioAJouer);
     }
 }
