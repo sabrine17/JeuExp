@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+using Photon.Realtime;
 
 public class MouvementPerso : MonoBehaviour
 {
@@ -13,7 +15,7 @@ public class MouvementPerso : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       /* if (gameObject.name == "PersoPrincipal_1")
+        if (gameObject.name == "PersoPrincipal_1")
         {
             GameObject spawn = GameObject.Find("SpawnJ1");
             gameObject.transform.position = spawn.transform.position;
@@ -24,7 +26,7 @@ public class MouvementPerso : MonoBehaviour
         {
             GameObject spawn = GameObject.Find("SpawnJ2");
             gameObject.transform.position = spawn.transform.position;
-        }*/
+        }
 
         jumpCount = MaxJumps;
     }
@@ -32,6 +34,11 @@ public class MouvementPerso : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       /* if (photonView.isMine)
+        {
+
+        }*/
+
         /////////////////////////// MOUVEMENT HORIZONTALE PERSONNAGE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
         // Mouvement du personnage vers la gauche -- François
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
