@@ -51,11 +51,7 @@
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
-<<<<<<< Updated upstream
-      "depth": 1,
-=======
       "depth": 0,
->>>>>>> Stashed changes
       "source": "builtin",
       "dependencies": {}
     },
@@ -73,11 +69,7 @@
     },
     "com.unity.2d.tilemap": {
       "version": "1.0.0",
-<<<<<<< Updated upstream
-      "depth": 1,
-=======
       "depth": 0,
->>>>>>> Stashed changes
       "source": "builtin",
       "dependencies": {}
     },
@@ -172,8 +164,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-<<<<<<< Updated upstream
-=======
     "com.unity.postprocessing": {
       "version": "2.3.0",
       "depth": 0,
@@ -188,7 +178,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
->>>>>>> Stashed changes
     "com.unity.render-pipelines.core": {
       "version": "12.1.1",
       "depth": 1,
