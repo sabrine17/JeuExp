@@ -13,6 +13,19 @@ public class MouvementPerso : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       /* if (gameObject.name == "PersoPrincipal_1")
+        {
+            GameObject spawn = GameObject.Find("SpawnJ1");
+            gameObject.transform.position = spawn.transform.position;
+
+        }
+
+        else
+        {
+            GameObject spawn = GameObject.Find("SpawnJ2");
+            gameObject.transform.position = spawn.transform.position;
+        }*/
+
         jumpCount = MaxJumps;
     }
 

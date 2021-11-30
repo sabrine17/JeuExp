@@ -38,44 +38,45 @@ public class sonPerso : MonoBehaviour
         else
         {
             StopCoroutine("pasJoueAudio");
+            peutjouerPas = true;
         }
 
-        if (joueur.GetComponent<Rigidbody2D>().velocity.y != 0)
-        {
-            StopCoroutine("pasJoueAudio");
-        }
+        
+
     }
     IEnumerator pasJoueAudio()
     {
-    
-        int nombre = Random.Range(1, 4);
-
-        if (nombre == 1)
+        if (joueur.GetComponent<Rigidbody2D>().velocity.y == 0)
         {
-            AudioClip pasAJouer = pas1;
+            int nombre = Random.Range(1, 4);
 
-            JoueAudio(pasAJouer);
-        }
+            if (nombre == 1)
+            {
+                AudioClip pasAJouer = pas1;
 
-        else if (nombre == 2)
-        {
-            AudioClip pasAJouer = pas2;
+                JoueAudio(pasAJouer);
+            }
 
-            JoueAudio(pasAJouer);
-        }
+            else if (nombre == 2)
+            {
+                AudioClip pasAJouer = pas2;
 
-        else if (nombre == 3)
-        {
-            AudioClip pasAJouer = pas3;
+                JoueAudio(pasAJouer);
+            }
 
-            JoueAudio(pasAJouer);
-        }
+            else if (nombre == 3)
+            {
+                AudioClip pasAJouer = pas3;
 
-        else if (nombre == 4)
-        {
-            AudioClip pasAJouer = pas3;
+                JoueAudio(pasAJouer);
+            }
 
-            JoueAudio(pasAJouer);
+            else if (nombre == 4)
+            {
+                AudioClip pasAJouer = pas3;
+
+                JoueAudio(pasAJouer);
+            }
         }
 
         yield return new WaitForSeconds(delai);

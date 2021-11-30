@@ -15,17 +15,20 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
     public GameObject ecranNom;
     public GameObject ecranChoixPerso;
 
-    bool j1Selectione;
-    bool j2Selectione;
+    static public bool j1Selectione;
+    static public bool j2Selectione;
 
     public GameObject imgLockJ1;
     public GameObject imgLockJ2;
     public GameObject txtJoueurConnectes;
+    public GameObject btnStart;
 
 
     private void Awake()
     {
         PhotonNetwork.ConnectUsingSettings();
+        PhotonNetwork.AutomaticallySyncScene = true;
+
     }
 
     public override void OnConnectedToMaster()
@@ -58,6 +61,7 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
         
         if (PhotonNetwork.LocalPlayer.IsMasterClient == true) {
             j1Selectione = true;
+            btnStart.SetActive(true);
         }
 
         else {
@@ -98,15 +102,16 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (ecranChoixPerso.activeSelf || ecranSalle.activeSelf)
+            quitteLobby();
+        }
+
+        if (PhotonNetwork.LocalPlayer.IsMasterClient == false && ecranChoixPerso.activeSelf == true)
+        {
+            if (PhotonNetwork.CurrentRoom.PlayerCount < 2) 
             {
-                // PhotonNetwork.LeaveRoom();
-                PhotonNetwork.Disconnect();
-                PhotonNetwork.ConnectUsingSettings();
-                ecranChoixPerso.SetActive(false);
-                ecranSalle.SetActive(false);
-                ecranNom.SetActive(false);
+                quitteLobby();
             }
+
         }
 
     }
@@ -121,6 +126,7 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
     public void JoindreSalle()
     {
         PhotonNetwork.JoinRoom(inputNomSalle.GetComponent<InputField>().text);
+
     }
 
     public void ConfirmerNom()
@@ -129,6 +135,27 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
         ecranNom.SetActive(false);
         ecranSalle.SetActive(true);
         print(PhotonNetwork.LocalPlayer.NickName);
+    }
+
+    void quitteLobby ()
+    {
+        if (ecranChoixPerso.activeSelf || ecranSalle.activeSelf)
+        {
+            // PhotonNetwork.LeaveRoom();
+            PhotonNetwork.Disconnect();
+            PhotonNetwork.ConnectUsingSettings();
+            ecranChoixPerso.SetActive(false);
+            ecranSalle.SetActive(false);
+            ecranNom.SetActive(false);
+        }
+    }
+
+    public void partirPartie ()
+    {
+        if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
+        {
+            PhotonNetwork.LoadLevel("TestMulti");
+        }
     }
 
    /* public void SelectionJ1() {
