@@ -657,7 +657,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.4
-  m_Text: COMMENT VOUS APELEZ-VOUS?
+  m_Text: COMMENT VOUS APPELEZ-VOUS?
 --- !u!222 &272880996
 CanvasRenderer:
   m_ObjectHideFlags: 0
