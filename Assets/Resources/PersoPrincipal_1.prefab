@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 2725060327751272789}
   - component: {fileID: 6052540757837962575}
   - component: {fileID: -7304671195528135303}
+  - component: {fileID: -6885084298114184161}
+  - component: {fileID: -3380708442731074589}
   m_Layer: 0
   m_Name: PersoPrincipal_1
   m_TagString: Joueur
@@ -405,3 +407,31 @@ MonoBehaviour:
     InterpolateOption: 2
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 3
+--- !u!114 &-6885084298114184161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787191829449698401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd02a1c5abedf44dab2fcdf8175d028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &-3380708442731074589
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787191829449698401}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 8e9fc8eb614da2349aa656ad3e7a6ce8, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.03049767, y: -0.0038028955}
+  m_Size: {x: 1.0551794, y: 1.390631}
+  m_Direction: 0
