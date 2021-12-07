@@ -30,7 +30,6 @@ public class sonPerso : MonoBehaviour
             if (peutjouerPas == true)
             {
                 StartCoroutine("pasJoueAudio");
-                print("wesh");
                 peutjouerPas = false;
             }
         }

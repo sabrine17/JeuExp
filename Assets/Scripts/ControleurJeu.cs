@@ -12,12 +12,18 @@ public class ControleurJeu : MonoBehaviour
     {
         if (ConnexionServeur.j1Selectione == true)
         {
-             PhotonNetwork.Instantiate("PersoPrincipal_1", new Vector2(0,0),new Quaternion(0,0,0,0),0);
+
+            GameObject spawn = GameObject.Find("SpawnJ1");
+
+            PhotonNetwork.Instantiate("PersoPrincipal_1", new Vector2(spawn.transform.position.x,spawn.transform.position.y),new Quaternion(0,0,0,0),0);
+            print("Ca marche");
+
         }
 
         else if (ConnexionServeur.j2Selectione == true)
         {
-            PhotonNetwork.Instantiate("PersoSecondaire_1", new Vector2(0, 0), new Quaternion(0, 0, 0, 0), 0);
+            GameObject spawn = GameObject.Find("SpawnJ2");
+            PhotonNetwork.Instantiate("PersoSecondaire_1", new Vector2(spawn.transform.position.x, spawn.transform.position.y), new Quaternion(0, 0, 0, 0), 0);
         }
     }
 
