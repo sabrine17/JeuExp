@@ -10,6 +10,9 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
     public float vitesseHorizontale;
     public float vitesseVerticale;
 
+    public float sautNormal;
+    public float sautRune;
+
     int jumpCount = 0;
     public int MaxJumps = 1; // maximum de saut à faire
     // Start is called before the first frame update
@@ -18,7 +21,7 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
         if (gameObject.name == "PersoPrincipal_1")
         {
             GameObject spawn = GameObject.Find("SpawnJ1");
-            gameObject.transform.position = spawn.transform.position;
+          //  gameObject.transform.position = spawn.transform.position;
             print("Ca marche");
 
         }
@@ -71,7 +74,15 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
                 if (jumpCount > 0)
                 {
                     // Change la vitesse de déplacement pour qu'il Saute -- François
-                    vitesseVerticale = 20f;
+                    if (GetComponent<InteractionRunes>().runeSaut == false)
+                    {
+                        vitesseVerticale = sautNormal;
+                    }
+
+                    else
+                    {
+                        vitesseVerticale = sautRune;
+                    }
 
                     // Activer l'animation de saut du personnage -- François
                     GetComponent<Animator>().SetBool("saut", true);

@@ -179,6 +179,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vitesseHorizontale: 0
   vitesseVerticale: 0
+  sautNormal: 20
+  sautRune: 35
   MaxJumps: 1
 --- !u!114 &3574637341813525819
 MonoBehaviour:
@@ -419,6 +421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd02a1c5abedf44dab2fcdf8175d028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runeSaut: 0
 --- !u!70 &-3380708442731074589
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
