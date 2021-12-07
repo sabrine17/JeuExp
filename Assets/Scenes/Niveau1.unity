@@ -450,6 +450,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: persoPrincipal_1
       objectReference: {fileID: 0}
+    - target: {fileID: 787191829449698401, guid: b6d23a2c48901b04aae80429e53b0a50,
+        type: 3}
+      propertyPath: m_TagString
+      value: Joueur
+      objectReference: {fileID: 0}
     - target: {fileID: 787191829449698424, guid: b6d23a2c48901b04aae80429e53b0a50,
         type: 3}
       propertyPath: m_RootOrder
@@ -458,7 +463,7 @@ PrefabInstance:
     - target: {fileID: 787191829449698424, guid: b6d23a2c48901b04aae80429e53b0a50,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.35
+      value: -5.81
       objectReference: {fileID: 0}
     - target: {fileID: 787191829449698424, guid: b6d23a2c48901b04aae80429e53b0a50,
         type: 3}
@@ -632,7 +637,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202535311}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -651,6 +656,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.475, y: 1.75}
   m_EdgeRadius: 0
+--- !u!114 &202535335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202535311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913c9e6f6e1ddc3418eb197113360a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &410789476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,7 +1087,7 @@ GameObject:
   - component: {fileID: 695429029}
   m_Layer: 11
   m_Name: Cave - RockCombinations1_14
-  m_TagString: Untagged
+  m_TagString: Danger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2192,7 +2209,7 @@ GameObject:
   - component: {fileID: 1381027145}
   m_Layer: 11
   m_Name: Cave - RockCombinations1_2
-  m_TagString: Untagged
+  m_TagString: Danger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3614,6 +3631,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2071472953 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2409234181218191119, guid: b4c84681e3f6b524eab82cc74779c45d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1983673174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2071472967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071472953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913c9e6f6e1ddc3418eb197113360a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2073322006
 GameObject:
   m_ObjectHideFlags: 0

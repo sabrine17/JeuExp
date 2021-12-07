@@ -8,12 +8,21 @@ public class MecanismeNiveau1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    void OnCollisionEnter2D(Collision2D colision)
+    {
+        if (colision.gameObject.tag == "Danger")
+        {
+            GetComponent<Collider2D>().enabled = false;
+            print("Collider s'efface");
+        }
     }
 }
