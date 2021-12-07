@@ -21,7 +21,7 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
         if (gameObject.name == "PersoPrincipal_1")
         {
             GameObject spawn = GameObject.Find("SpawnJ1");
-          //  gameObject.transform.position = spawn.transform.position;
+            gameObject.transform.position = spawn.transform.position;
             print("Ca marche");
 
         }
@@ -29,7 +29,7 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
         else if (gameObject.name == "PersoSecondaire_1")
         {
             GameObject spawn = GameObject.Find("SpawnJ2");
-            gameObject.transform.position = spawn.transform.position;
+            // gameObject.transform.position = spawn.transform.position;
         }
 
         jumpCount = MaxJumps;

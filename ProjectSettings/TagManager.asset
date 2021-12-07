@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Sol
   - Joueur
+  - Danger
   layers:
   - Default
   - TransparentFX
