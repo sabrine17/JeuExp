@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
+
 
 public class MouvementPerso : MonoBehaviourPunCallbacks
 {
@@ -22,14 +24,13 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
         {
             GameObject spawn = GameObject.Find("SpawnJ1");
             gameObject.transform.position = spawn.transform.position;
-            print("Ca marche");
 
         }
 
         else if (gameObject.name == "PersoSecondaire_1")
         {
             GameObject spawn = GameObject.Find("SpawnJ2");
-            // gameObject.transform.position = spawn.transform.position;
+            gameObject.transform.position = spawn.transform.position;
         }
 
         jumpCount = MaxJumps;

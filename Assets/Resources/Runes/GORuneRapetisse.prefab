@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4181922090168016385}
   - component: {fileID: 4059304368914281041}
   m_Layer: 0
-  m_Name: GORuneSaut
+  m_Name: GORuneRapetisse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -247,7 +247,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.3019608, g: 0.9960785, b: 0, a: 1}
+      maxColor: {r: 0.5803922, g: 0, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -4843,10 +4843,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3191076694226773680}
     m_Modifications:
+    - target: {fileID: 967749738495309960, guid: 257a3822aa05a5943a84533c8a82e8cf,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -123531200, guid: b9d71ceecdc1d45ed903b348cca81085,
+        type: 3}
     - target: {fileID: 967749738495309961, guid: 257a3822aa05a5943a84533c8a82e8cf,
         type: 3}
       propertyPath: m_Name
-      value: RuneSaut
+      value: RuneRapetisse
       objectReference: {fileID: 0}
     - target: {fileID: 967749738495309961, guid: 257a3822aa05a5943a84533c8a82e8cf,
         type: 3}

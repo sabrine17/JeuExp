@@ -4,7 +4,7 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 
-public class ControleurJeu : MonoBehaviour
+public class ControleurJeu : MonoBehaviourPunCallbacks
 {
 
     // Start is called before the first frame update

@@ -7,7 +7,7 @@ public class TimerRune : MonoBehaviour
 
     public bool desactive = true;
 
-    Collider2D collider;
+    Collider2D c;
     SpriteRenderer spriteRenderer;
 
     public ParticleSystem particules;
@@ -15,7 +15,7 @@ public class TimerRune : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        collider = GetComponent<Collider2D>();
+        c = GetComponent<Collider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -35,14 +35,14 @@ public class TimerRune : MonoBehaviour
 
     public void Desactiver()
     {
-        collider.enabled = false;
+        c.enabled = false;
         spriteRenderer.enabled = false;
         particules.Play();
     }
 
     public void Activer()
     {
-        collider.enabled = true;
+        c.enabled = true;
         spriteRenderer.enabled = true;
     }
 

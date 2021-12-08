@@ -87,7 +87,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 414330118, guid: 022c7885157f2d74598a9850c0832a4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runeSaut: 0
+  runeRapetisse: 1
   txtTimer: {fileID: 2948560496211665682}
   positionTimer: {fileID: 3742614555380364148}
 --- !u!70 &7633707943987061120
