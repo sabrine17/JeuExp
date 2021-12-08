@@ -98,7 +98,7 @@ public class InteractionRunes : MonoBehaviour
             derniereCoroutine = StartCoroutine(TimerSecoule()); //Sapelle lui même, agis comme une loop
         }
 
-        if (timer == 0)
+        if (timer == 0) 
         {
 
             if (derniereRuneTouche != null)
