@@ -39,6 +39,7 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
+
         if (photonView.IsMine)
         {
             /////////////////////////// MOUVEMENT HORIZONTALE PERSONNAGE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -49,7 +50,7 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
                 vitesseHorizontale = -5f;
 
                 // Flipper le sprite sur l'axe des X -- François
-                transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
             }
 
             // Mouvement du personnage vers la droite -- François
@@ -59,7 +60,7 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
                 vitesseHorizontale = 5f;
 
                 // Flipper le sprite sur l'axe des X -- François
-                transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
             }
 
             // la vitesse de déplacement en fonction de la vélocité du personnage -- François

@@ -10,17 +10,24 @@ public class InteractionRunes : MonoBehaviour
     public bool runeSaut = false;
     public bool runeRapetisse = true;
 
-    bool peutResetRunes;
-
     int timer = 0;
     public Text txtTimer;
     public GameObject positionTimer;
 
     Coroutine derniereCoroutine;
 
+    //Variables pour la rune de rapetissage
+    float scaleDesire;
+    public float scaleNormal;
+    public float scaleRapetisse;
+
+    Transform transformJoueur;
+
     // Start is called before the first frame update
     void Start()
     {
+        transformJoueur = gameObject.transform;
+
         runeSaut = false;
         runeRapetisse = false;
         txtTimer.text = "";
@@ -42,11 +49,22 @@ public class InteractionRunes : MonoBehaviour
         Vector3 posTxtTimer = Camera.main.WorldToScreenPoint(positionTimer.transform.position);
         txtTimer.gameObject.transform.position = posTxtTimer;
 
-        //Fix de bug bizarre ne devrait pas etre final
+        //Fix si jamais le timer se retrouve en dessous de 0
         if (timer < 0)
         {
             timer = 0;
         }
+
+        /*if (runeRapetisse == true && transformJoueur.localScale.x > scaleDesire)
+        {
+            gameObject.transform.localScale = new Vector2 (transformJoueur.localScale.x - 0.01f, transformJoueur.localScale.y - 0.1f);
+        }
+
+        else if (runeRapetisse == false && transformJoueur.localScale.x < scaleDesire)
+        {
+            print("hello");
+            gameObject.transform.localScale = new Vector2(transformJoueur.localScale.x + 0.01f, transformJoueur.localScale.y + 0.1f);
+        }*/
 
     }
 
@@ -55,6 +73,9 @@ public class InteractionRunes : MonoBehaviour
     {
         runeSaut = false;
         runeRapetisse = false;
+        scaleDesire = scaleNormal;
+        transformJoueur.localScale = new Vector2(scaleDesire, scaleDesire);
+
         txtTimer.text = ""; //On efface le texte du timer pour ne pas qu'il s'affiche
         timer = 0;
         timer = temps; //La variable de la longueur du timer est définie lorsqu'on appelle la fonction dans le TriggerEnter
@@ -64,14 +85,7 @@ public class InteractionRunes : MonoBehaviour
             derniereCoroutine = StartCoroutine(TimerSecoule()); //On part le decoulement du timer
         }
 
-        //Cette loop sert a activer toutes les runes dans la scene. Comme ca, lorsque le joueur intergis avec une nouvelle rune, les autres reapparaissent immediatement
-        GameObject[] mesRunes = GameObject.FindGameObjectsWithTag("Rune");
-        int i = 0;
-        while (i < mesRunes.Length)
-        {
-            mesRunes[i].GetComponent<TimerRune>().Activer();
-            i++;
-        }
+        loopReactiveRunes();
 
         if (derniereRuneTouche != null)
         {
@@ -86,10 +100,12 @@ public class InteractionRunes : MonoBehaviour
 
     void RuneRapetisse()
     {
-        runeRapetisse = true; 
+        runeRapetisse = true;
+        scaleDesire = scaleRapetisse;
+        transformJoueur.localScale = new Vector2 (scaleDesire, scaleDesire);
     }
 
-    IEnumerator TimerSecoule()
+    IEnumerator TimerSecoule() //Cette fonction gère le chronometrage
     {
         if (timer > 0) //Si il reste des secondes au timer, il sen preleve une
         {
@@ -98,19 +114,13 @@ public class InteractionRunes : MonoBehaviour
             derniereCoroutine = StartCoroutine(TimerSecoule()); //Sapelle lui même, agis comme une loop
         }
 
-        if (timer == 0) 
+        if (timer == 0) //Si le timer est fini ou reseté
         {
 
-            if (derniereRuneTouche != null)
+            if (derniereRuneTouche != null) //Lorque le timer atteint 0 alors que le joueur est encore sous leffet d'une rune
+                                            //la loop qui reactive toutes les runes et appelée
             {
-                GameObject[] mesRunes = GameObject.FindGameObjectsWithTag("Rune");
-                int i = 0;
-
-                while (i < mesRunes.Length)
-                {
-                    mesRunes[i].GetComponent<TimerRune>().Activer();
-                    i++;
-                }
+                loopReactiveRunes();
 
                 if (derniereCoroutine != null)
                 {
@@ -121,20 +131,21 @@ public class InteractionRunes : MonoBehaviour
                 ResetTimer(0);
             }
 
-            if (derniereRuneTouche != null)
-            {
-                peutResetRunes = false;
-                GameObject[] mesRunes = GameObject.FindGameObjectsWithTag("Rune");
-
-                int i = 0;
-                while (i <= mesRunes.Length)
-                {
-                    mesRunes[i].GetComponent<TimerRune>().Activer();
-                    i++;
-                }
-            }
         }
 
+    }
+
+    void loopReactiveRunes() //Cette loop sert a activer toutes les runes dans la scene.
+                             //Comme ca, lorsque le joueur intergis avec une nouvelle rune, les autres reapparaissent immediatement
+    {
+        GameObject[] mesRunes = GameObject.FindGameObjectsWithTag("Rune");
+        int i = 0;
+
+        while (i < mesRunes.Length)
+        {
+            mesRunes[i].GetComponent<TimerRune>().Activer();
+            i++;
+        }
     }
 
 

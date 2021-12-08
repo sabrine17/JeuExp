@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 267333621504341903}
   - component: {fileID: 3650893533305105239}
   - component: {fileID: 7633707943987061120}
+  - component: {fileID: -5476831560760722277}
   m_Layer: 0
   m_Name: PersoSecondaire_1
   m_TagString: Untagged
@@ -426,6 +427,8 @@ MonoBehaviour:
   runeRapetisse: 1
   txtTimer: {fileID: 2948560496211665682}
   positionTimer: {fileID: 3742614555380364148}
+  scaleNormal: 0
+  scaleRapetisse: 0
 --- !u!70 &7633707943987061120
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -442,6 +445,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0.03049767, y: -0.0038028955}
   m_Size: {x: 1.0551794, y: 1.390631}
   m_Direction: 0
+--- !u!114 &-5476831560760722277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409234181218191119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450e7f04ca117ed4d9bf2cb802caf984, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3742614555380364148
 GameObject:
   m_ObjectHideFlags: 0
