@@ -7,6 +7,7 @@ TagManager:
   - Sol
   - Joueur
   - Danger
+  - feu
   layers:
   - Default
   - TransparentFX
