@@ -26,7 +26,11 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
-        lesLumieres.text = "Torches : " + nombreDeLumieres + "/2";
+        if (lesLumieres != null)
+        {
+            lesLumieres.text = "Torches : " + nombreDeLumieres + "/2";
+        }
+
 
         // vérifier si le personnage meurt -- François
         if (mort == true)

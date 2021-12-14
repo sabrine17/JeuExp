@@ -87,7 +87,7 @@ public class sonPerso : MonoBehaviour
     {
         //audioJoueur.clip = audioAJouer;
         audioJoueur.pitch = (Random.Range(0.7f, 1.3f));
-        audioJoueur.volume = (Random.Range(0.5f, 1f));
+        audioJoueur.volume = (Random.Range(0.2f, 0.6f));
         audioJoueur.PlayOneShot(audioAJouer);
     }
 }
