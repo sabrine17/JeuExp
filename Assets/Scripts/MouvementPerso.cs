@@ -15,7 +15,7 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
     public float sautNormal;
     public float sautRune;
 
-    int jumpCount = 0;
+    public int jumpCount = 0;
     public int MaxJumps = 1; // maximum de saut à faire
     // Start is called before the first frame update
     void Start()
@@ -78,7 +78,7 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
                     // Change la vitesse de déplacement pour qu'il Saute -- François
                     if (GetComponent<InteractionRunes>().runeSaut == false)
                     {
-                        vitesseVerticale = sautNormal;
+                         vitesseVerticale = sautNormal;
                     }
 
                     else
@@ -90,6 +90,7 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
                     GetComponent<Animator>().SetBool("saut", true);
 
                     jumpCount -= 1;
+
                 }
 
             }

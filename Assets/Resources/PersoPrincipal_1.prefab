@@ -284,6 +284,7 @@ MonoBehaviour:
   vitesseVerticale: 0
   sautNormal: 20
   sautRune: 35
+  jumpCount: 0
   MaxJumps: 1
 --- !u!114 &3574637341813525819
 MonoBehaviour:
@@ -528,6 +529,8 @@ MonoBehaviour:
   runeRapetisse: 1
   txtTimer: {fileID: 303548705445068880}
   positionTimer: {fileID: 2014700043237591723}
+  scaleNormal: 0
+  scaleRapetisse: 0
 --- !u!70 &-3380708442731074589
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
