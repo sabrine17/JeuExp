@@ -12,21 +12,23 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
     public Sprite porteFermer; // Sprite de la porte qui est fermer
 
     public GameObject porte; // variable pour selectionner la porte;
+    public GameObject plateformeFaible;
 
     private bool mort; // variable pour vérifier la mort
+    private bool victoire;
 
     public Text lesLumieres;
     private int nombreDeLumieres = 0;
     // Start is called before the first frame update
     void Start()
     {
-
+        lesLumieres.text = "Torches : " + nombreDeLumieres + "/2";
     }
 
     // Update is called once per frame
     void Update()
     {
-        lesLumieres.text = "Torches : " + nombreDeLumieres + "/2";
+        
 
         // vérifier si le personnage meurt -- François
         if (mort == true)
@@ -42,6 +44,15 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
 
             // desactiver le scale qui se truve dans le script mouvement perso pour pas qu'il se tourne -- François
             GetComponent<MouvementPerso>().transform.localScale = new Vector3(1f, transform.localScale.y, transform.localScale.z);
+        }
+
+        if(victoire == true)
+        {
+            GetComponent<Animator>().SetBool("victoire", true);
+        }
+        if(victoire == false)
+        {
+            GetComponent<Animator>().SetBool("victore", false);
         }
 
     }
@@ -62,26 +73,39 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
             // si le personnage n'a pas toucher au pics alors il n'est pas mort --François
             mort = false;
         }
+
+        if(colision.gameObject.name == "faible")
+        {
+            Invoke("DetruirePlateforme", 2.5f);
+        }
+        else
+        {
+            plateformeFaible.SetActive(true);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         // vérifier si le personnage entre en collision avec la porte
-        if(collision.gameObject.name == "door_4")
+        if(collision.gameObject.tag == "Victoire")
         {
             // changer le sprite de la porte --François
             porte.GetComponent<SpriteRenderer>().sprite = porteOuvert;
+
+            victoire = true;
         }
         else
         {
             // Si il ne touche pas la porte, alors il se ferme -- François
             porte.GetComponent<SpriteRenderer>().sprite = porteFermer;
+            victoire = false;
         }
 
         if(collision.gameObject.tag == "feu")
         {
-            nombreDeLumieres += 1 ;
-            lesLumieres.GetComponent<Text>().text = nombreDeLumieres.ToString();
+            nombreDeLumieres += 1;
+            print(nombreDeLumieres);
+            lesLumieres.text = "Torches : " + nombreDeLumieres + "/2";
             collision.gameObject.SetActive(false);
         }
     }
@@ -90,5 +114,10 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
     {
         // Recharge la scene pour tout les joueurs -- François
         PhotonNetwork.LoadLevel(SceneManager.GetActiveScene().name);
+    }
+
+    void DetruirePlateforme()
+    {
+        plateformeFaible.SetActive(false);
     }
 }
