@@ -74,7 +74,7 @@ public class InteractionRunes : MonoBehaviour
         runeSaut = false;
         runeRapetisse = false;
         scaleDesire = scaleNormal;
-        transformJoueur.localScale = new Vector2(scaleDesire, scaleDesire);
+        //transformJoueur.localScale = new Vector2(scaleDesire, scaleDesire);
 
         txtTimer.text = ""; //On efface le texte du timer pour ne pas qu'il s'affiche
         timer = 0;

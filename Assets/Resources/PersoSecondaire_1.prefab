@@ -183,6 +183,7 @@ MonoBehaviour:
   vitesseVerticale: 0
   sautNormal: 20
   sautRune: 35
+  jumpCount: 0
   MaxJumps: 1
 --- !u!114 &-7429582191337662071
 MonoBehaviour:

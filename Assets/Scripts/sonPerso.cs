@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class sonPerso : MonoBehaviour
+public class sonPerso : MonoBehaviourPunCallbacks
 {
     public AudioClip pas1;
     public AudioClip pas2;
@@ -12,6 +14,7 @@ public class sonPerso : MonoBehaviour
     AudioSource audioJoueur;
 
     bool peutjouerPas = true;
+    bool aJoueSaut = false;
 
     public float delai;
 
@@ -40,7 +43,10 @@ public class sonPerso : MonoBehaviour
             peutjouerPas = true;
         }
 
-        
+        if (joueur.GetComponent<MouvementPerso>().jumpCount == 0 && aJoueSaut == false)
+        {
+
+        }
 
     }
     IEnumerator pasJoueAudio()
@@ -53,28 +59,28 @@ public class sonPerso : MonoBehaviour
             {
                 AudioClip pasAJouer = pas1;
 
-                JoueAudio(pasAJouer);
+                photonView.RPC("audioAJouer", RpcTarget.All, "pasAjouer");
             }
 
             else if (nombre == 2)
             {
                 AudioClip pasAJouer = pas2;
 
-                JoueAudio(pasAJouer);
+                photonView.RPC("audioAJouer", RpcTarget.All, "pasAjouer");
             }
 
             else if (nombre == 3)
             {
                 AudioClip pasAJouer = pas3;
 
-                JoueAudio(pasAJouer);
+                photonView.RPC("audioAJouer", RpcTarget.All, "pasAjouer");
             }
 
             else if (nombre == 4)
             {
                 AudioClip pasAJouer = pas3;
 
-                JoueAudio(pasAJouer);
+                photonView.RPC("audioAJouer", RpcTarget.All, "pasAjouer");
             }
         }
 
@@ -83,11 +89,12 @@ public class sonPerso : MonoBehaviour
         StartCoroutine("pasJoueAudio");
     }
 
+    [PunRPC]
     void JoueAudio(AudioClip audioAJouer)
     {
         //audioJoueur.clip = audioAJouer;
         audioJoueur.pitch = (Random.Range(0.7f, 1.3f));
-        audioJoueur.volume = (Random.Range(0.2f, 0.6f));
+        audioJoueur.volume = (Random.Range(0.3f, 0.6f));
         audioJoueur.PlayOneShot(audioAJouer);
     }
 }
