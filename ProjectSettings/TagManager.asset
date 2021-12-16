@@ -9,6 +9,8 @@ TagManager:
   - Danger
   - feu
   - Victoire
+  - Rune
+  - plat
   layers:
   - Default
   - TransparentFX
