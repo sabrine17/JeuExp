@@ -14,6 +14,7 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
     public GameObject porte; // variable pour selectionner la porte;
 
     private bool mort; // variable pour vérifier la mort
+    private bool victoire;
 
     public Text lesLumieres;
     private int nombreDeLumieres = 0;
@@ -48,6 +49,15 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
             GetComponent<MouvementPerso>().transform.localScale = new Vector3(1f, transform.localScale.y, transform.localScale.z);
         }
 
+        if(victoire == true)
+        {
+            Invoke("ChangementDeSceneVictoire", 1f);
+        }
+        else
+        {
+            victoire = false;
+        }
+
     }
 
     void OnCollisionEnter2D(Collision2D colision)
@@ -75,11 +85,15 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
         {
             // changer le sprite de la porte --François
             porte.GetComponent<SpriteRenderer>().sprite = porteOuvert;
+            GetComponent<Animator>().SetBool("victoire", true);
+            victoire = true;
         }
         else
         {
             // Si il ne touche pas la porte, alors il se ferme -- François
             porte.GetComponent<SpriteRenderer>().sprite = porteFermer;
+            GetComponent<Animator>().SetBool("victoire", false);
+            victoire = false;
         }
 
         if(collision.gameObject.tag == "feu")
@@ -94,5 +108,12 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
     {
         // Recharge la scene pour tout les joueurs -- François
         PhotonNetwork.LoadLevel(SceneManager.GetActiveScene().name);
+    }
+
+    void ChangementDeSceneVictoire()
+    {
+        GetComponent<Renderer>().sortingOrder = -1;
+        porte.GetComponent<SpriteRenderer>().sprite = porteFermer;
+        PhotonNetwork.LoadLevel("Niveau2");
     }
 }

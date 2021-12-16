@@ -474,12 +474,12 @@ PrefabInstance:
     - target: {fileID: 787191829449698424, guid: b6d23a2c48901b04aae80429e53b0a50,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.37
+      value: -7.41
       objectReference: {fileID: 0}
     - target: {fileID: 787191829449698424, guid: b6d23a2c48901b04aae80429e53b0a50,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.98
+      value: 1.24
       objectReference: {fileID: 0}
     - target: {fileID: 787191829449698424, guid: b6d23a2c48901b04aae80429e53b0a50,
         type: 3}
@@ -1547,7 +1547,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -624604082, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2165,8 +2165,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277061693}
   m_LocalRotation: {x: -0, y: -0, z: -0.7080412, w: 0.70617115}
-  m_LocalPosition: {x: 5.4194, y: -8.0157, z: 0}
-  m_LocalScale: {x: 0.7000821, y: 0.54212976, z: 0.5}
+  m_LocalPosition: {x: 5.4197, y: -7.8904, z: 0}
+  m_LocalScale: {x: 0.63567454, y: 0.54212976, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 134628881}
@@ -2594,8 +2594,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381027142}
   m_LocalRotation: {x: -0, y: -0, z: 0.70499915, w: -0.70920813}
-  m_LocalPosition: {x: -0.96, y: -6.58, z: 0}
-  m_LocalScale: {x: 1, y: 0.40563473, z: 1}
+  m_LocalPosition: {x: -0.9943, y: -6.5802, z: 0}
+  m_LocalScale: {x: 1, y: 0.386651, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 809555808}
@@ -3414,7 +3414,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 886004440, guid: 215b11b04868349ff82048661ec07ec0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3869,6 +3869,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PersoSecondaire_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2409234181218191119, guid: b4c84681e3f6b524eab82cc74779c45d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2409234181218191217, guid: b4c84681e3f6b524eab82cc74779c45d,
         type: 3}
