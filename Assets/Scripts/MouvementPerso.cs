@@ -20,6 +20,9 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+
+        PhotonNetwork.OfflineMode = true;
+
         if (gameObject.name == "PersoPrincipal_1")
         {
             GameObject spawn = GameObject.Find("SpawnJ1");

@@ -500,8 +500,8 @@ MonoBehaviour:
   runeRapetisse: 1
   txtTimer: {fileID: 2948560496211665682}
   positionTimer: {fileID: 3742614555380364148}
-  scaleNormal: 0
-  scaleRapetisse: 0
+  scaleNormal: 1
+  scaleRapetisse: 0.5
 --- !u!70 &7633707943987061120
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

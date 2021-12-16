@@ -477,6 +477,12 @@ MonoBehaviour:
   - Type: 4
     SynchronizeType: 0
     Name: marche
+  - Type: 4
+    SynchronizeType: 0
+    Name: mort
+  - Type: 4
+    SynchronizeType: 0
+    Name: victoire
   m_SynchronizeLayers:
   - SynchronizeType: 0
     LayerIndex: 0
@@ -529,8 +535,8 @@ MonoBehaviour:
   runeRapetisse: 1
   txtTimer: {fileID: 303548705445068880}
   positionTimer: {fileID: 2014700043237591723}
-  scaleNormal: 0
-  scaleRapetisse: 0
+  scaleNormal: 1
+  scaleRapetisse: 0.5
 --- !u!70 &-3380708442731074589
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
