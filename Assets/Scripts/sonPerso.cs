@@ -9,6 +9,7 @@ public class sonPerso : MonoBehaviourPunCallbacks
     public AudioClip pas1;
     public AudioClip pas2;
     public AudioClip pas3;
+    public AudioClip sonSaut;
 
     GameObject joueur;
     AudioSource audioJoueur;
@@ -59,28 +60,32 @@ public class sonPerso : MonoBehaviourPunCallbacks
             {
                 AudioClip pasAJouer = pas1;
 
-                photonView.RPC("audioAJouer", RpcTarget.All, "pasAjouer");
+                // photonView.RPC("JoueAudio", RpcTarget.All, pasAJouer);
+                JoueAudio(pasAJouer);
             }
 
             else if (nombre == 2)
             {
                 AudioClip pasAJouer = pas2;
 
-                photonView.RPC("audioAJouer", RpcTarget.All, "pasAjouer");
+                // photonView.RPC("JoueAudio", RpcTarget.All, pasAJouer);
+                JoueAudio(pasAJouer);
             }
 
             else if (nombre == 3)
             {
                 AudioClip pasAJouer = pas3;
 
-                photonView.RPC("audioAJouer", RpcTarget.All, "pasAjouer");
+                //photonView.RPC("JoueAudio", RpcTarget.All, pasAJouer);
+                JoueAudio(pasAJouer);
             }
 
             else if (nombre == 4)
             {
                 AudioClip pasAJouer = pas3;
 
-                photonView.RPC("audioAJouer", RpcTarget.All, "pasAjouer");
+                //photonView.RPC("JoueAudio", RpcTarget.All, pasAJouer);
+                JoueAudio(pasAJouer);
             }
         }
 
@@ -89,7 +94,12 @@ public class sonPerso : MonoBehaviourPunCallbacks
         StartCoroutine("pasJoueAudio");
     }
 
-    [PunRPC]
+    public void sautJoueAudio()
+    {
+        JoueAudio(sonSaut);
+    }
+
+    //[PunRPC]
     void JoueAudio(AudioClip audioAJouer)
     {
         //audioJoueur.clip = audioAJouer;

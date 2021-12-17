@@ -38,6 +38,7 @@ public class TimerRune : MonoBehaviour
         c.enabled = false;
         spriteRenderer.enabled = false;
         particules.Play();
+        GetComponent<AudioSource>().Play();
     }
 
     public void Activer()

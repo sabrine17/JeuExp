@@ -21,12 +21,13 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
     void Start()
     {
 
-        PhotonNetwork.OfflineMode = true;
+        PhotonNetwork.OfflineMode = false;
 
         if (gameObject.name == "PersoPrincipal_1")
         {
             GameObject spawn = GameObject.Find("SpawnJ1");
             gameObject.transform.position = spawn.transform.position;
+
 
         }
 
@@ -78,6 +79,9 @@ public class MouvementPerso : MonoBehaviourPunCallbacks
             {
                 if (jumpCount > 0)
                 {
+
+                    GetComponent<sonPerso>().sautJoueAudio();
+
                     // Change la vitesse de déplacement pour qu'il Saute -- François
                     if (GetComponent<InteractionRunes>().runeSaut == false)
                     {

@@ -301,6 +301,7 @@ MonoBehaviour:
   pas1: {fileID: 8300000, guid: 4143e3a9273fa144483df6c26f164121, type: 3}
   pas2: {fileID: 8300000, guid: f39a87cf97e148842ae9448cce0b1f25, type: 3}
   pas3: {fileID: 8300000, guid: a9d06e0dfb06db24a9ca8a53e322055b, type: 3}
+  sonSaut: {fileID: 8300000, guid: 421a9b8139c9e304baf3c17189fc1829, type: 3}
   delai: 0.35
 --- !u!82 &-5461459830364364091
 AudioSource:

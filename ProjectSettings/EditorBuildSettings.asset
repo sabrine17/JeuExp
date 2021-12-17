@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Connexion.unity
     guid: e7421b11838c80648aac362be00d6f95
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestRunes.unity
     guid: 24a16b1ed0cdbf84d96cfb5cec281e3a
   - enabled: 1

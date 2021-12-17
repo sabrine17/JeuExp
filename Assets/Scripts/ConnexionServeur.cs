@@ -68,7 +68,6 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
             j2Selectione = true;
         }
 
-        print(j1Selectione);
     }
 
     // Start is called before the first frame update
@@ -154,7 +153,7 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
     {
         if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
         {
-            PhotonNetwork.LoadLevel("TestRunes");
+            PhotonNetwork.LoadLevel("Niveau1");
         }
     }
 
