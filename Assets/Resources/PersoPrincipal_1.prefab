@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: -7304671195528135303}
   - component: {fileID: -6885084298114184161}
   - component: {fileID: -3380708442731074589}
+  - component: {fileID: 6738447560958059602}
   m_Layer: 0
   m_Name: PersoPrincipal_1
   m_TagString: Joueur
@@ -554,6 +555,24 @@ CapsuleCollider2D:
   m_Offset: {x: 0.03049767, y: -0.0038028955}
   m_Size: {x: 1.0551794, y: 1.390631}
   m_Direction: 0
+--- !u!114 &6738447560958059602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787191829449698401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913c9e6f6e1ddc3418eb197113360a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  porteOuvert: {fileID: -942069100, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
+  porteFermer: {fileID: -624604082, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
+  levierGauche: {fileID: -1867372663, guid: 2fae9eb90bfd543ae8a0a8a0dc9e135d, type: 3}
+  levierNormale: {fileID: 319266605, guid: 2fae9eb90bfd543ae8a0a8a0dc9e135d, type: 3}
+  levierDroit: {fileID: 114568278, guid: 2fae9eb90bfd543ae8a0a8a0dc9e135d, type: 3}
+  lesLumieres: {fileID: 0}
 --- !u!1 &883867486681935735
 GameObject:
   m_ObjectHideFlags: 0

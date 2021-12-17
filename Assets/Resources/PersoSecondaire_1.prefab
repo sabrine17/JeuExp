@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 3650893533305105239}
   - component: {fileID: 7633707943987061120}
   - component: {fileID: -5476831560760722277}
+  - component: {fileID: 8553355384313991286}
   m_Layer: 0
   m_Name: PersoSecondaire_1
   m_TagString: Untagged
@@ -482,6 +483,12 @@ MonoBehaviour:
   - Type: 4
     SynchronizeType: 1
     Name: marche
+  - Type: 4
+    SynchronizeType: 0
+    Name: mort
+  - Type: 4
+    SynchronizeType: 0
+    Name: victoire
   m_SynchronizeLayers:
   - SynchronizeType: 0
     LayerIndex: 0
@@ -534,6 +541,24 @@ MonoBehaviour:
   scaleDesire: 0
   scaleX: 0
   scaleY: 0
+--- !u!114 &8553355384313991286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409234181218191119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913c9e6f6e1ddc3418eb197113360a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  porteOuvert: {fileID: -942069100, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
+  porteFermer: {fileID: -624604082, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
+  levierGauche: {fileID: -1867372663, guid: 2fae9eb90bfd543ae8a0a8a0dc9e135d, type: 3}
+  levierNormale: {fileID: 319266605, guid: 2fae9eb90bfd543ae8a0a8a0dc9e135d, type: 3}
+  levierDroit: {fileID: 114568278, guid: 2fae9eb90bfd543ae8a0a8a0dc9e135d, type: 3}
+  lesLumieres: {fileID: 0}
 --- !u!1 &3742614555380364148
 GameObject:
   m_ObjectHideFlags: 0

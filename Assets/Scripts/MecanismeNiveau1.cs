@@ -253,6 +253,6 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
         porte2.GetComponent<SpriteRenderer>().sprite = porteFermer;
 
         // changer la scène vers le prochain niveau
-        PhotonNetwork.LoadLevel("Menu");
+        PhotonNetwork.LoadLevel("SceneVictoire");
     }
 }
