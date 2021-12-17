@@ -10,6 +10,9 @@ public class ControleurJeu : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+
+        PhotonNetwork.AutomaticallySyncScene = true;
+
         print(ConnexionServeur.j1Selectione);
 
         if (ConnexionServeur.j1Selectione == true)

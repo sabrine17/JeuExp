@@ -1364,6 +1364,7 @@ GameObject:
   - component: {fileID: 819532617}
   - component: {fileID: 819532616}
   - component: {fileID: 819532618}
+  - component: {fileID: 819532619}
   m_Layer: 0
   m_Name: door_4
   m_TagString: Victoire
@@ -1484,6 +1485,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.425, y: 1.9583334}
   m_EdgeRadius: 0
+--- !u!114 &819532619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819532614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82803b9174aac034094568c7a515736c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &839413613
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,15 +2713,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 913c9e6f6e1ddc3418eb197113360a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  peutAvancer: 0
   porteOuvert: {fileID: 0}
   porteFermer: {fileID: 0}
   levierGauche: {fileID: 0}
   levierNormale: {fileID: 0}
   levierDroit: {fileID: 0}
-  boutonAppuyer: {fileID: 0}
-  boutonPasAppuyer: {fileID: 0}
-  porte: {fileID: 0}
-  plateformeFaible: {fileID: 0}
   lesLumieres: {fileID: 0}
 --- !u!4 &1568512794
 Transform:

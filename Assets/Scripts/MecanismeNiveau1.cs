@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
 {
+    public bool peutAvancer = false;
 
     public Sprite porteOuvert;  // sprite de la porte qui est ouvert
     public Sprite porteFermer; // Sprite de la porte qui est fermer
@@ -37,6 +38,8 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
         plateformeLevier = GameObject.Find("PlateformeLevier");
         levier = GameObject.Find("levier");
         plateformeFantome = GameObject.Find("PlateformeFantome");
+
+        PhotonNetwork.AutomaticallySyncScene = true;
     }
 
     // Update is called once per frame
@@ -61,28 +64,6 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
 
             // desactiver le scale qui se truve dans le script mouvement perso pour pas qu'il se tourne -- François
             GetComponent<MouvementPerso>().transform.localScale = new Vector3(1f, transform.localScale.y, transform.localScale.z);
-        }
-
-        // si victoire est vrai alors....
-        if(victoire == true)
-        {
-            // change la scène après 1 secondes
-            Invoke("ChangementDeSceneVictoire", 1f);
-        }
-        // sinon...
-        else
-        {
-            // victoire est fausse
-            victoire = false;
-        }
-
-        if(victoireNiveau2 == true)
-        {
-            Invoke("ChangementDeSceneVictoireNiveau2", 1f);
-        }
-        else
-        {
-            victoireNiveau2 = false;
         }
 
         // si la touche 1 est appuyer alors...
@@ -149,7 +130,7 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
     void OnTriggerEnter2D(Collider2D collision)
     {
         // vérifier si le personnage entre en collision avec la porte
-        if(collision.gameObject.name == "door_4")
+        if(collision.gameObject.name == "door_4" && peutAvancer == true)
         {
             // changer le sprite de la porte --François
             porte.GetComponent<SpriteRenderer>().sprite = porteOuvert;
@@ -159,6 +140,7 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
 
             // victoire est vrai
             victoire = true;
+            Invoke("ChangementDeSceneVictoire", 1f);
         }
         // sinon...
         else if(porte != null)
@@ -174,7 +156,7 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
         }
 
 
-        if(collision.gameObject.name == "door_4(2)")
+        if(collision.gameObject.name == "door_4(2)" && peutAvancer == true)
         {
             // changer le sprite de la porte --François
             porte2.GetComponent<SpriteRenderer>().sprite = porteOuvert;
@@ -184,8 +166,9 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
 
             // victoire est vrai
             victoireNiveau2 = true;
+            Invoke("ChangementDeSceneVictoireNiveau2", 1f);
         }
-        else
+        else if (porte2 != null)
         {
             // Si il ne touche pas la porte, alors il se ferme -- François
             porte2.GetComponent<SpriteRenderer>().sprite = porteFermer;
@@ -198,7 +181,7 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
         }
 
         // si le joueur touche la torceh, alors...
-        if (collision.gameObject.tag == "feu")
+        if (collision.gameObject.tag == "feu" && lesLumieres != null)
         {
             // augmenter le nombre de lumière
             nombreDeLumieres += 1 ;
@@ -242,6 +225,7 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
 
         // changer la scène vers le prochain niveau
         PhotonNetwork.LoadLevel("Niveau2");
+        print("chargementScene");
     }
 
     void ChangementDeSceneVictoireNiveau2()

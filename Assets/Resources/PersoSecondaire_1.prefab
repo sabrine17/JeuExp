@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 8553355384313991286}
   m_Layer: 0
   m_Name: PersoSecondaire_1
-  m_TagString: Untagged
+  m_TagString: Joueur
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -553,6 +553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 913c9e6f6e1ddc3418eb197113360a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  peutAvancer: 0
   porteOuvert: {fileID: -942069100, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
   porteFermer: {fileID: -624604082, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
   levierGauche: {fileID: -1867372663, guid: 2fae9eb90bfd543ae8a0a8a0dc9e135d, type: 3}
