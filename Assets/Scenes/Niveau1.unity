@@ -474,12 +474,12 @@ PrefabInstance:
     - target: {fileID: 787191829449698424, guid: b6d23a2c48901b04aae80429e53b0a50,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.41
+      value: 6.47
       objectReference: {fileID: 0}
     - target: {fileID: 787191829449698424, guid: b6d23a2c48901b04aae80429e53b0a50,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.24
+      value: -3.76
       objectReference: {fileID: 0}
     - target: {fileID: 787191829449698424, guid: b6d23a2c48901b04aae80429e53b0a50,
         type: 3}
@@ -681,6 +681,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   porteOuvert: {fileID: -942069100, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
   porteFermer: {fileID: -624604082, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
+  levierGauche: {fileID: 0}
+  levierNormale: {fileID: 0}
+  levierDroit: {fileID: 0}
+  boutonAppuyer: {fileID: 0}
+  boutonPasAppuyer: {fileID: 0}
   porte: {fileID: 819532614}
   plateformeFaible: {fileID: 1509419516}
   lesLumieres: {fileID: 245475983}
@@ -4078,6 +4083,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   porteOuvert: {fileID: -942069100, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
   porteFermer: {fileID: -624604082, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
+  levierGauche: {fileID: 0}
+  levierNormale: {fileID: 0}
+  levierDroit: {fileID: 0}
+  boutonAppuyer: {fileID: 0}
+  boutonPasAppuyer: {fileID: 0}
   porte: {fileID: 819532614}
   plateformeFaible: {fileID: 1509419516}
   lesLumieres: {fileID: 245475983}

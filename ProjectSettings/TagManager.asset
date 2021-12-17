@@ -11,6 +11,7 @@ TagManager:
   - Victoire
   - Rune
   - plat
+  - lever
   layers:
   - Default
   - TransparentFX
