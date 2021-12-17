@@ -12,6 +12,7 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
     public Sprite porteFermer; // Sprite de la porte qui est fermer
 
     public GameObject porte; // variable pour selectionner la porte;
+    public GameObject plateformeFaible;
 
     private bool mort; // variable pour vérifier la mort
     private bool victoire;
@@ -76,6 +77,15 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
             // si le personnage n'a pas toucher au pics alors il n'est pas mort --François
             mort = false;
         }
+
+        if (colision.gameObject.name == "faible")
+        {
+            Invoke("DetruirePlateforme", 2.5f);
+        }
+        else
+        {
+            plateformeFaible.SetActive(true);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -115,5 +125,10 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
         GetComponent<Renderer>().sortingOrder = -1;
         porte.GetComponent<SpriteRenderer>().sprite = porteFermer;
         PhotonNetwork.LoadLevel("Niveau2");
+    }
+
+    void DetruirePlateforme()
+    {
+        plateformeFaible.SetActive(false);
     }
 }

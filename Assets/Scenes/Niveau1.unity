@@ -682,6 +682,7 @@ MonoBehaviour:
   porteOuvert: {fileID: -942069100, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
   porteFermer: {fileID: -624604082, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
   porte: {fileID: 819532614}
+  plateformeFaible: {fileID: 1509419516}
   lesLumieres: {fileID: 245475983}
 --- !u!1 &245475981
 GameObject:
@@ -2639,7 +2640,6 @@ GameObject:
   - component: {fileID: 1509419517}
   - component: {fileID: 1509419519}
   - component: {fileID: 1509419520}
-  - component: {fileID: 1509419521}
   m_Layer: 6
   m_Name: faible
   m_TagString: Sol
@@ -2724,7 +2724,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2760,18 +2760,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1509419521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509419516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e1d21d664f4b46f18312f9f374fc93d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1580599441
 GameObject:
   m_ObjectHideFlags: 0
@@ -4091,6 +4079,7 @@ MonoBehaviour:
   porteOuvert: {fileID: -942069100, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
   porteFermer: {fileID: -624604082, guid: 0ed26a47620c04ca3aa966636f0eca07, type: 3}
   porte: {fileID: 819532614}
+  plateformeFaible: {fileID: 1509419516}
   lesLumieres: {fileID: 245475983}
 --- !u!1 &2073322006
 GameObject:
