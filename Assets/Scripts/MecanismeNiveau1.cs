@@ -9,36 +9,33 @@ using UnityEngine.UI;
 public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
 {
 
-    public Sprite porteOuvert; // sprite de la porte qui est ouvert
+    public Sprite porteOuvert;  // sprite de la porte qui est ouvert
     public Sprite porteFermer; // Sprite de la porte qui est fermer
     public Sprite levierGauche;
     public Sprite levierNormale;
     public Sprite levierDroit;
-    public Sprite boutonAppuyer;
-    public Sprite boutonPasAppuyer;
 
-    public GameObject porte; // variable pour selectionner la porte;
-    public GameObject plateformeFaible; // variable pour selectioner la plateforme à faire disparaitre
-
+    private GameObject porte; // variable pour selectionner la porte;
+    private GameObject plateformeFaible; // variable pour selectioner la plateforme à faire disparaitre
+    private GameObject porte2;
     private GameObject levier;
-    private GameObject bouton;
     private GameObject plateformeLevier;
     private GameObject plateformeFantome;
 
     private bool mort; // variable pour vérifier la mort
     private bool victoire; // variable pour vérifier si on à gagner la partie
-    private bool gauche;
-    private bool normale;
-    private bool droit;
+    private bool victoireNiveau2;
 
     public Text lesLumieres; // variable text pour les lumière
     private int nombreDeLumieres = 0; // variable integer pour compter le nombre de lumière
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        porte = GameObject.Find("door_4");
+        porte2 = GameObject.Find("door_4(2)");
+        plateformeFaible = GameObject.Find("faible");
         plateformeLevier = GameObject.Find("PlateformeLevier");
         levier = GameObject.Find("levier");
-        bouton = GameObject.Find("bouton");
         plateformeFantome = GameObject.Find("PlateformeFantome");
     }
 
@@ -77,6 +74,15 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
         {
             // victoire est fausse
             victoire = false;
+        }
+
+        if(victoireNiveau2 == true)
+        {
+            Invoke("ChangementDeSceneVictoireNiveau2", 1f);
+        }
+        else
+        {
+            victoireNiveau2 = false;
         }
 
         // si la touche 1 est appuyer alors...
@@ -133,7 +139,7 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
             Invoke("DetruirePlateforme", 2.5f);
         }
         // sinon...
-        else
+        else if(plateformeFaible != null)
         {
             // activer la plateforme
             plateformeFaible.SetActive(true);
@@ -155,7 +161,7 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
             victoire = true;
         }
         // sinon...
-        else
+        else if(porte != null)
         {
             // Si il ne touche pas la porte, alors il se ferme -- François
             porte.GetComponent<SpriteRenderer>().sprite = porteFermer;
@@ -167,19 +173,32 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
             victoire = false;
         }
 
-        if(collision.gameObject.name == "bouton")
+
+        if(collision.gameObject.name == "door_4(2)")
         {
-            plateformeFantome.SetActive(true);
-            bouton.GetComponent<SpriteRenderer>().sprite = boutonAppuyer;
+            // changer le sprite de la porte --François
+            porte2.GetComponent<SpriteRenderer>().sprite = porteOuvert;
+
+            // faire jouer l'animation de victoire
+            GetComponent<Animator>().SetBool("victoire", true);
+
+            // victoire est vrai
+            victoireNiveau2 = true;
         }
         else
         {
-            plateformeFantome.SetActive(false);
-            bouton.GetComponent<SpriteRenderer>().sprite = boutonPasAppuyer;
+            // Si il ne touche pas la porte, alors il se ferme -- François
+            porte2.GetComponent<SpriteRenderer>().sprite = porteFermer;
+
+            // ne joue pas l'animation de victoire
+            GetComponent<Animator>().SetBool("victoire", false);
+
+            // victoire est fausse
+            victoireNiveau2 = false;
         }
 
         // si le joueur touche la torceh, alors...
-        if(collision.gameObject.tag == "feu")
+        if (collision.gameObject.tag == "feu")
         {
             // augmenter le nombre de lumière
             nombreDeLumieres += 1 ;
@@ -187,6 +206,12 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
             // mettre la jour la variable text
             lesLumieres.GetComponent<Text>().text = nombreDeLumieres.ToString();
 
+            // desactiver la torche touché
+            collision.gameObject.SetActive(false);
+        }
+
+        if(collision.gameObject.name == "torche(2)")
+        {
             // desactiver la torche touché
             collision.gameObject.SetActive(false);
         }
@@ -217,8 +242,17 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
 
         // changer la scène vers le prochain niveau
         PhotonNetwork.LoadLevel("Niveau2");
-
-        DontDestroyOnLoad(porte);
     }
 
+    void ChangementDeSceneVictoireNiveau2()
+    {
+        // changer le order in layer du joueur
+        GetComponent<Renderer>().sortingOrder = -1;
+
+        // Changer le sprite de la porte pour qu'il puisse se fermer
+        porte2.GetComponent<SpriteRenderer>().sprite = porteFermer;
+
+        // changer la scène vers le prochain niveau
+        PhotonNetwork.LoadLevel("Menu");
+    }
 }
