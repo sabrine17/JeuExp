@@ -21,7 +21,8 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
     public GameObject imgLockJ1;
     public GameObject imgLockJ2;
     public GameObject txtJoueurConnectes;
-    public GameObject btnStart;
+    public GameObject btnStartNiv1;
+    public GameObject btnStartNiv2;
 
 
     private void Awake()
@@ -29,6 +30,8 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
         PhotonNetwork.ConnectUsingSettings();
         PhotonNetwork.AutomaticallySyncScene = true;
 
+        j1Selectione = false;
+        j2Selectione = false;
     }
 
     public override void OnConnectedToMaster()
@@ -61,7 +64,8 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
         
         if (PhotonNetwork.LocalPlayer.IsMasterClient == true) {
             j1Selectione = true;
-            btnStart.SetActive(true);
+            btnStartNiv1.SetActive(true);
+            btnStartNiv2.SetActive(true);
         }
 
         else {
@@ -149,7 +153,7 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
         }
     }
 
-    public void partirPartie ()
+    public void partirNiv1 ()
     {
         if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
         {
@@ -157,15 +161,23 @@ public class ConnexionServeur : MonoBehaviourPunCallbacks
         }
     }
 
-   /* public void SelectionJ1() {
-        if (ptSelectionnerJ1) {
-            j1Selectione = true;
+    public void partirNiv2()
+    {
+        if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
+        {
+            PhotonNetwork.LoadLevel("Niveau2");
         }
     }
 
-    public void SelectionJ2() {
-        if (ptSelectionnerJ2) {
-            j2Selectione = true;
-        }
-    }*/
+    /* public void SelectionJ1() {
+         if (ptSelectionnerJ1) {
+             j1Selectione = true;
+         }
+     }
+
+     public void SelectionJ2() {
+         if (ptSelectionnerJ2) {
+             j2Selectione = true;
+         }
+     }*/
 }

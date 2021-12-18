@@ -69,29 +69,19 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
         // si la touche 1 est appuyer alors...
         if (Input.GetKey(KeyCode.Alpha1))
         {
-            // faire jouer l'animation gauche
-            plateformeLevier.GetComponent<Animator>().SetBool("gauche", true);
-
-            levier.GetComponent<SpriteRenderer>().sprite = levierGauche;
+            photonView.RPC("PlateformeGauche", RpcTarget.All);
         }
 
         // si la touche 2 est appuyer alors...
         else if (Input.GetKey(KeyCode.Alpha2))
         {
-            // faire jouer l'animation normale
-            plateformeLevier.GetComponent<Animator>().SetBool("gauche", false);
-            plateformeLevier.GetComponent<Animator>().SetBool("droit", false);
-
-            levier.GetComponent<SpriteRenderer>().sprite = levierNormale;
+            photonView.RPC("PlateformeNormal", RpcTarget.All);
         }
 
         // si la touche 3 est appuyer alors...
         else if (Input.GetKey(KeyCode.Alpha3))
         {
-            // faire jouer l'animation droit
-            plateformeLevier.GetComponent<Animator>().SetBool("droit", true);
-
-            levier.GetComponent<SpriteRenderer>().sprite = levierDroit;
+            photonView.RPC("PlateformeDroite", RpcTarget.All);
         }
 
     }
@@ -224,7 +214,7 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
         porte.GetComponent<SpriteRenderer>().sprite = porteFermer;
 
         // changer la scène vers le prochain niveau
-        PhotonNetwork.LoadLevel("Niveau2");
+        SceneManager.LoadScene("SceneVictoire");
         print("chargementScene");
     }
 
@@ -238,5 +228,35 @@ public class MecanismeNiveau1 : MonoBehaviourPunCallbacks
 
         // changer la scène vers le prochain niveau
         PhotonNetwork.LoadLevel("SceneVictoire");
+    }
+
+    [PunRPC]
+    void PlateformeGauche()
+    {
+        // faire jouer l'animation gauche
+        plateformeLevier.GetComponent<Animator>().SetBool("gauche", true);
+
+        levier.GetComponent<SpriteRenderer>().sprite = levierGauche;
+    }
+
+    [PunRPC]
+    void PlateformeDroite()
+    {
+        // faire jouer l'animation droit
+        plateformeLevier.GetComponent<Animator>().SetBool("droit", true);
+
+
+        levier.GetComponent<SpriteRenderer>().sprite = levierDroit;
+
+    }
+
+    [PunRPC]
+    void PlateformeNormal()
+    {
+        // faire jouer l'animation normale
+        plateformeLevier.GetComponent<Animator>().SetBool("gauche", false);
+        plateformeLevier.GetComponent<Animator>().SetBool("droit", false);
+
+        levier.GetComponent<SpriteRenderer>().sprite = levierNormale;
     }
 }
